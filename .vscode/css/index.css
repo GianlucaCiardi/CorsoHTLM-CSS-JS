@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(1, 1, 1);
+}
+
+h1 {
+    color: red;
+    background: blue;
+    margin: 10px;
+}
+
+div {
+    color: green
+}
+
+.frist-div {
+    color: magenta
+}
+
+.second-div {
+    color: aqua
+}

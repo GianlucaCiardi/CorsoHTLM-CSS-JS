@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Tabelle</title>
+</head>
+
+<body>
+    <b>Tabelle</b>
+    <p>
+        Una prima semplice tabella 2x2
+        <table border=1>
+            <tr>
+                <td>testo della prima cella della prima riga*1x1*</td>
+                <td>testo della seconda cella della prima riga*1x2*</td>
+            </tr>
+            <tr>
+                <td>testo della prima cella della seconda riga*2x1*</td>
+                <td>testo della seconda cella della seconda riga*2x2*</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        Una tabella 2x2 nidificata in un'altra
+        <table border=1>
+            <tr>
+                <td>testo della prima cella della prima riga*1x1*</td>
+                <td>
+                    <table border=1>
+                        <tr>
+                            <td>testo della prima cella della prima riga </td>
+                            <td>testo della seconda cella della prima riga</td>
+                        </tr>
+                        <tr>
+                            <td>testo della prima cella della seconda riga</td>
+                            <td>testo della seconda cella della seconda riga</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>testo della prima cella della seconda riga</td>
+                <td>testo della seconda cella della seconda riga</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        Una tabella in cui appaiono alcuni attributi
+        <table border=1 cellpadding=5 cellspacing=13 width=60%>
+            <tr align=center bgcolor="#ff33cc">
+                <td colspan=2 valign=bottom>
+                    testo della prima cella della prima riga, che occupa due colonne</td>
+                <td>testo della seconda cella della prima riga</td>
+            </tr>
+            <tr>
+                <td rowspan=2 align=right>
+                    testo della prima cella della seconda riga, che occupa due righe</td>
+                <td valign=middle align=right bgcolor="33cc99">
+                    testo della seconda cella della seconda riga</td>
+                <td valign=top align=left>
+                    testo della seconda cella della seconda riga</td>
+            </tr>
+            <tr>
+                <td>testo della prima cella della terza riga</td>
+                <td>testo della seconda cella della terza riga</td>
+            </tr>
+        </table>

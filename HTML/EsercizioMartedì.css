@@ -1,0 +1,15 @@
+body {
+    background-color: gray;
+}
+
+.squares {
+    padding: 10px;
+    font-size: x-large;
+    background-color: aqua;
+}
+
+.squares td {
+    margin: 10%;
+    padding: 50px;
+    border: 20px solid black;
+}
