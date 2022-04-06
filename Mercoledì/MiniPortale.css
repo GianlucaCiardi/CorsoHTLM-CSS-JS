@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    background: rgb(54, 203, 223);
+}
+
+.title {
+    color: brown;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    color: rgb(122, 12, 12);
+    padding: 70px;
+    justify-items: center;
+}
+
+.contattami {
+    text-align: center;
+    border: 1px solid;
+    width: 30%;
+    margin: auto;
+}
+
+.centro {
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
