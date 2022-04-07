@@ -1,0 +1,11 @@
+.classAdded {
+    background-color: aqua;
+}
+
+.classAdded p {
+    background-color: beige;
+}
+
+.allP {
+    font-style: italic;
+}

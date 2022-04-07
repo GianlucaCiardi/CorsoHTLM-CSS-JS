@@ -1,0 +1,9 @@
+body {
+    background: rgb(111, 235, 107);
+}
+
+.prova {
+    color: rgb(0, 0, 0);
+    border: 3px black;
+    text-align: center;
+}
