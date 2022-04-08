@@ -1,0 +1,15 @@
+{
+    "name": "corsohtlm-css-js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Gianluca Ciardi",
+    "license": "ISC",
+    "homepage": "https://github.com/GianlucaCiardi/CorsoHTLM-CSS-JS#readme",
+    "devDependencies": {
+        "lodash": "^4.17.21"
+    }
+}
